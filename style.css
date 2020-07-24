@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#submit {
+    width: 6em;
+    height: 3em;
+    cursor: pointer;
+}
+
+.complete-page {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+}
+
+.custom-form div {
+    border: 1px solid white;
+    flex: 1;
+    padding: 1em;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    background-color: teal;
+    width: 30vw;
+    height: 80vh;
+}
+
+.custom-form {
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
